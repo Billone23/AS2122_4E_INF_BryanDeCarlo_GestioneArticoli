@@ -10,6 +10,14 @@ using System.Windows.Forms;
 
 namespace AS2122_4E_INF_BryanDeCarlo_GestioneArticoli
 {
+    public class Dettagliarticolo
+    {
+        string codice;
+        string descrizione;
+        string unitaMisura;
+        double prezzo;
+    }
+  
     public partial class Form1 : Form
     {
         public Form1()
