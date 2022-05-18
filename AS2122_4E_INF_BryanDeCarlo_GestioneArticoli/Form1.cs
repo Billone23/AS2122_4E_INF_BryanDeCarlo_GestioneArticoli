@@ -16,14 +16,25 @@ namespace AS2122_4E_INF_BryanDeCarlo_GestioneArticoli
         string descrizione;
         string unitaMisura;
         double prezzo;
-    }
-  
-    public partial class Form1 : Form
-    {
-        public Form1()
+
+
+        public Dettagliarticolo(string codice, string descrizione, string unitaMisura, double prezzo)
         {
-            InitializeComponent();
+            this.codice = codice;
+            this.descrizione = descrizione;
+            this.unitaMisura = unitaMisura;
+            this.prezzo = prezzo;
         }
+        public string Codice { get { return codice; } }
+        public string Descrizione { get { return descrizione; } }
+        public string UnitaMisura { get { return unitaMisura; } }
+        public double Prezzo { get { return prezzo; } }
+
+
+
+
+        public partial class Form1 : Form
+    {
 
         private void label3_Click(object sender, EventArgs e)
         {
