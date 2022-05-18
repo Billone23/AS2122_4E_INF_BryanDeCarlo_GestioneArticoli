@@ -17,5 +17,9 @@ namespace AS2122_4E_INF_BryanDeCarlo_GestioneArticoli
             InitializeComponent();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
